@@ -2,7 +2,7 @@
 include "human.php";
 class Student extends Human {
 
-	public $scores = [];
+	private $scores = [];
 	
 	public function __construct($lastname, $name, $secname, $score) {
 		parent::__construct ($lastname, $name, $secname);
